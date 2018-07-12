@@ -3,8 +3,8 @@ def alphabetize(arr)
   esperanto_alphabet =  "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split(//)
   #sort
   arr.sort_by do |word|
-    word.split("").map do |alphabet_letter|
-       
-    
-  
+    word.map do |alphabet_letter|
+      esperanto_alphabet.index(alphabet_letter)
+    end
+  end
 end
