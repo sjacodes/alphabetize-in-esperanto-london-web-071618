@@ -1,5 +1,6 @@
 def alphabetize(arr)
   #make the alphabet an array of strings, breaking out each element (letter)
-  esperanto_alphabet = ["a", "b", "c", "ĉ
-  defgĝhĥijĵklmnoprsŝtuŭvz" ]
+  esperanto_alphabet = ["a", "b", "c", "ĉ", "d", "e", "f", "g", "ĝ", "h", "ĥ", "i", "j", "ĵ", "k", "l", "m", "n", "o", "p", "r", "s", "ŝ", "t", "u", "ŭ", "v", "z" ]
+  arr.sort
+  
 end
