@@ -1,3 +1,4 @@
 def alphabetize(arr)
-  # code here
+  #make the alphabet an array of strings, breaking out each element (letter)
+  esperanto_alphabet = ["a" ]
 end
